@@ -7,6 +7,7 @@
     - BNB (this is needed for gas)
     - WBNB (this is used to purchase the desired token)
     - IF you want to TEST the bot using WBNB / BUSD, then ADD the BUSD custom token to your MetaMask (0xe9e7cea3dedca5984780bafc599bd69add087d56)
+    - Run the bot using the to_Purchase value of the BNB token contract. This works because liquidity is frequently added to this pool.
 
 3) **APPROVE WBNB** in your MetaMask
     - you need to approve your wallet to spend WBNB in order for the bot to be able to make purchases
@@ -19,17 +20,17 @@
 
 1) Download & Install Node.js - https://nodejs.org/en/ - 14.16.1 LTS is fine
 
-2) Extract zip contents to a folder, example C:\users\username\Downloads\trading-bot\
+2) Extract the bot zip / download contents to a folder, example C:\users\username\Downloads\pancakeswap-sniping-bot\
 
 3) install node dependencies
     - open command prompt
-    - cd C:\users\username\Downloads\trading-bot\
+    - cd C:\users\username\Downloads\pancakeswap-sniping-bot\
     - npm init
     - npm install ethers
     - npm install chalk
     - npm install express
 
-4) open package.json file inside your directory, example C:\users\username\Downloads\trading-bot\, and make sure it contains:
+4) open package.json file inside your directory, example C:\users\username\Downloads\pancakeswap-sniping-bot\, and make sure it contains:
     - "type": "module",
     - this should be on line 6, after the line "main": "bot.js",
     - entire package.json should be:
