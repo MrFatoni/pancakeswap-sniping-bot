@@ -7,7 +7,7 @@
     - BNB (this is needed for gas)
     - WBNB (this is used to purchase the desired token)
     - IF you want to TEST the bot using WBNB / BUSD, then ADD the BUSD custom token to your MetaMask (0xe9e7cea3dedca5984780bafc599bd69add087d56)
-    - Run the bot using the to_Purchase value of the BNB token contract. This works because liquidity is frequently added to this pool.
+    - Run the bot using the to_Purchase value of the BUSD token contract. This works because liquidity is frequently added to this pool.
 
 3) **APPROVE WBNB** in your MetaMask
     - you need to approve your wallet to spend WBNB in order for the bot to be able to make purchases
