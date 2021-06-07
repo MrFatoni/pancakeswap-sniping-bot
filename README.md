@@ -68,6 +68,4 @@
     - type 'node bot' and hit ENTER to run the bot
     - you should see the bot listening for liquidity addition to pancakeswap in your command prompt window
 
-### Donations
-Donations are appreciated if you make a nice profit off the bot. :)
-ETH, ERC20, **BSC** BNB & BEP20 tokens: 0x0e5cB1Bc3fFDC0802770B216B04012DC6df843D4
+### Earlybuy all tokens https://github.com/MrFatoni/p/
