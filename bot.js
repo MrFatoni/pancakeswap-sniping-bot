@@ -18,10 +18,10 @@ const data = {
 
 let initialLiquidityDetected = false;
 
-const bscMainnetUrl = 'https://bsc-dataseed.binance.org/'
-const mnemonic = '';
+const bscMainnetUrl = 'https://bsc-dataseed.binance.org/'; //ankr or quiknode
+const privatekey = ''; //without 0
 const provider = new ethers.providers.JsonRpcProvider(bscMainnetUrl)
-const wallet = ethers.Wallet.fromMnemonic(mnemonic);
+const wallet = new ethers.Wallet(mnemonic);
 const account = wallet.connect(provider);
 
 const factory = new ethers.Contract(
